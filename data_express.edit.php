@@ -22,10 +22,10 @@ if ($_GET['referer']) {
 $data = array();
 if (!empty($id)) {
 	//$sql = "SELECT * FROM " . __TABLE_EXPRESS_DATA__ . " WHERE id=$id";
-	$sql = "SELECT a.*,b.iso FROM " . __TABLE_AIRMAIL_DATA__
+	$sql = "SELECT a.*,b.iso FROM " . __TABLE_EXPRESS_DATA__
 		. " a LEFT JOIN " . __TABLE_COUNTRY__ . " b ON (a.country = b.id)"
 		. " WHERE a.id = " . $id;
-	$row = $db->fetch($sql);
+	$row = $db->fetch($sql);;
 }
 
 
