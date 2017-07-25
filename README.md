@@ -1,1 +1,1 @@
-This is dedicated Shipping Module For Magento;access datas via SOAP
+This is dedicated Shipping Module For Magento
